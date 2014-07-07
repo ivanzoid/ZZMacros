@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/ZZMacros.svg?style=flat)](http://cocoadocs.org/docsets/ZZMacros)
 [![Platform](https://img.shields.io/cocoapods/p/ZZMacros.svg?style=flat)](http://cocoadocs.org/docsets/ZZMacros)
 
+## Overview
+
+A set of often used macros.
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+`#import "ZZMacros.h"`
+See particular `ZZMacro`\* file for more details.
 
 ## Installation
 
@@ -20,7 +23,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Ivan Zezyulya, ivan@zezyulya.com
+Ivan Zezyulya, ZZMacros@zoid.cc
 
 ## License
 
