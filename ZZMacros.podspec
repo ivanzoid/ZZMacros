@@ -9,28 +9,18 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZZMacros"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of ZZMacros."
+  s.version          = "1.0.0"
+  s.summary          = "Various useful macros."
   s.description      = <<-DESC
-                       An optional longer description of ZZMacros
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A set of often used macros.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZZMacros"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/ivanzoid/ZZMacros"
   s.license          = 'MIT'
-  s.author           = { "Ivan Zezyulya" => "ivan@zezyulya.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZZMacros.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Ivan Zezyulya" => "ZZMacros@zoid.cc" }
+  s.source           = { :git => "https://github.com/ivanzoid/ZZMacros.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Source'
 end
